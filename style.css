@@ -3,14 +3,14 @@
     padding: 0%;
     margin: 0%;
 }
-html, body {
+body {
     margin: 0;
     padding: 0;
     font-size: 23px;
-}
-body {
     background: #f6f6f6;
     font-family: "EB Garamond", "Helvetica Neue", "Segoe UI", sans-serif;}
+
+
 
 .header{
     text-align: center;
@@ -18,49 +18,59 @@ body {
 }
 .header1{
     font-size: 30px;
+    margin: 10px 40px;
 }
 a {
     color: #ff3300;
     text-decoration: none;
-    letter-spacing: 2px;
+    margin: 10px 10px;
 }
     a:hover {
         color: #000;
     }
 
+
+.slogan {
+        text-align: center;
+        margin: 0 0 60px 0;
+        font-style: italic;
+        }    
+
+
+
 .main{
-   display: block;
+   margin: 10px 20px 10px 20px;
 } 
       img{
         display: block;
         margin-right: auto;
         margin-left: auto;
+        margin-bottom: 20px;
         max-width: 250px;
       } 
       .main h3{
-       
+       line-height: 1.5;
+       text-align: center;
+       width: 80%;
+       margin: auto;
       }
-
-       .slogan {
-        text-align: center;
-        margin: 0 0 60px 0;
-        font-style: italic;
-        }
 
   /* Project CSS */
   .mainP{
     padding: 20px 50px;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    /* letter-spacing: 2px; */
   }
   .mainP .main1{
     margin: 20px 30px;
+    
   }
 
 
 
 .footer{
-    margin: 30px 0;
+    margin: 30px auto 0 auto;
     text-align: center;
     background-color: #9999;
 }
