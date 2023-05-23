@@ -59,7 +59,7 @@ a {
   .mainP{
     padding: 20px 50px;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
   .mainP .main1{
     margin: 20px 30px;
@@ -68,14 +68,15 @@ a {
 
 
 .footer{
-    margin: 30px auto 0 auto;
+    margin: 20px auto 0 auto;
     text-align: center;
     background-color: #9999;
 }
    .footer a {
-    color: #666;
+    color: #ff3300;
+    
     }
     .footer a:hover {
-    color: #ff3300;
+        color: #666;
     }
 
